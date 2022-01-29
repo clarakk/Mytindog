@@ -1,0 +1,146 @@
+body {
+    font-family: "Montserrat";
+}
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+p {
+    color: #8f8f8f;
+}
+
+#features {
+    padding: 5% 15%; 
+    position: relative;
+    background-color: white;
+    /*margin-top: -150px;
+    z-index: 1;*/
+    }
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+/*Download Buttons */
+
+.download-button {
+    margin: 5% 3% 3% 0;
+}
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+.features-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+.testimonial-text {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.testimonial-dog {
+ width: 15%;
+ border-radius: 100%;
+ margin: 20px;
+}
+#press {
+background-color: #ef8172;
+text-align: center; 
+padding-bottom: 3%
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 5px;
+}
+.carousel-item {
+padding: 7% 15%;
+} 
+
+/*Pricing section*/
+#pricing {
+    padding-top: 50px;
+    text-align: center;
+
+} 
+.pricing-column {
+    padding: 3% 2%;
+ }
+
+
+#cta  {    
+    text-align: center;
+    background-color: #ff4c68;
+
+    padding-top: 50px;
+    color: white;
+    margin: 0px 0;
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+#footer {
+   text-align: center; 
+}
+
+.social-icons {
+   color: #007BFF;
+  margin: 20px 10px;
+  text-align: center; 
+}
+
+
+@media only screen and (max-width: 1028px) {
+   #title{
+    text-align: center;
+
+   } 
+.title-image {
+    position: static;
+    transform: rotate(0deg);
+}
+}
